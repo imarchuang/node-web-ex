@@ -1,0 +1,26 @@
+{
+  "name": "web-ex",
+  "version": "1.0.0",
+  "description": "node web app with express",
+  "main": "app.js",
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "mongodb": "^3.0.1",
+    "morgan": "^1.9.0",
+    "object-assign": "^4.1.1"
+  }
+}
